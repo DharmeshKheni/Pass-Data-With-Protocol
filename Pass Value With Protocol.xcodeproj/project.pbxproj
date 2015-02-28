@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0456156B1AA1D0AA0070FA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456156A1AA1D0AA0070FA13 /* AppDelegate.swift */; };
+		045615701AA1D0AB0070FA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0456156E1AA1D0AA0070FA13 /* Main.storyboard */; };
+		045615721AA1D0AB0070FA13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045615711AA1D0AB0070FA13 /* Images.xcassets */; };
+		045615751AA1D0AB0070FA13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045615731AA1D0AB0070FA13 /* LaunchScreen.xib */; };
+		045615811AA1D0AB0070FA13 /* Pass_Value_With_ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045615801AA1D0AB0070FA13 /* Pass_Value_With_ProtocolTests.swift */; };
+		0456158B1AA1D0DC0070FA13 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456158A1AA1D0DC0070FA13 /* AViewController.swift */; };
+		0456158D1AA1D0E50070FA13 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456158C1AA1D0E50070FA13 /* BViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0456157B1AA1D0AB0070FA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0456155D1AA1D0AA0070FA13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045615641AA1D0AA0070FA13;
+			remoteInfo = "Pass Value With Protocol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045615651AA1D0AA0070FA13 /* Pass Value With Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass Value With Protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045615691AA1D0AA0070FA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0456156A1AA1D0AA0070FA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0456156F1AA1D0AB0070FA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045615711AA1D0AB0070FA13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		045615741AA1D0AB0070FA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0456157A1AA1D0AB0070FA13 /* Pass Value With ProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass Value With ProtocolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0456157F1AA1D0AB0070FA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045615801AA1D0AB0070FA13 /* Pass_Value_With_ProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass_Value_With_ProtocolTests.swift; sourceTree = "<group>"; };
+		0456158A1AA1D0DC0070FA13 /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AViewController.swift; path = ../AViewController.swift; sourceTree = "<group>"; };
+		0456158C1AA1D0E50070FA13 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BViewController.swift; path = ../BViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045615621AA1D0AA0070FA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045615771AA1D0AB0070FA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0456155C1AA1D0AA0070FA13 = {
+			isa = PBXGroup;
+			children = (
+				045615671AA1D0AA0070FA13 /* Pass Value With Protocol */,
+				0456157D1AA1D0AB0070FA13 /* Pass Value With ProtocolTests */,
+				045615661AA1D0AA0070FA13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045615661AA1D0AA0070FA13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045615651AA1D0AA0070FA13 /* Pass Value With Protocol.app */,
+				0456157A1AA1D0AB0070FA13 /* Pass Value With ProtocolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045615671AA1D0AA0070FA13 /* Pass Value With Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0456156A1AA1D0AA0070FA13 /* AppDelegate.swift */,
+				0456158A1AA1D0DC0070FA13 /* AViewController.swift */,
+				0456158C1AA1D0E50070FA13 /* BViewController.swift */,
+				0456156E1AA1D0AA0070FA13 /* Main.storyboard */,
+				045615711AA1D0AB0070FA13 /* Images.xcassets */,
+				045615731AA1D0AB0070FA13 /* LaunchScreen.xib */,
+				045615681AA1D0AA0070FA13 /* Supporting Files */,
+			);
+			path = "Pass Value With Protocol";
+			sourceTree = "<group>";
+		};
+		045615681AA1D0AA0070FA13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045615691AA1D0AA0070FA13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0456157D1AA1D0AB0070FA13 /* Pass Value With ProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				045615801AA1D0AB0070FA13 /* Pass_Value_With_ProtocolTests.swift */,
+				0456157E1AA1D0AB0070FA13 /* Supporting Files */,
+			);
+			path = "Pass Value With ProtocolTests";
+			sourceTree = "<group>";
+		};
+		0456157E1AA1D0AB0070FA13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0456157F1AA1D0AB0070FA13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045615641AA1D0AA0070FA13 /* Pass Value With Protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045615841AA1D0AB0070FA13 /* Build configuration list for PBXNativeTarget "Pass Value With Protocol" */;
+			buildPhases = (
+				045615611AA1D0AA0070FA13 /* Sources */,
+				045615621AA1D0AA0070FA13 /* Frameworks */,
+				045615631AA1D0AA0070FA13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pass Value With Protocol";
+			productName = "Pass Value With Protocol";
+			productReference = 045615651AA1D0AA0070FA13 /* Pass Value With Protocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045615791AA1D0AB0070FA13 /* Pass Value With ProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045615871AA1D0AB0070FA13 /* Build configuration list for PBXNativeTarget "Pass Value With ProtocolTests" */;
+			buildPhases = (
+				045615761AA1D0AB0070FA13 /* Sources */,
+				045615771AA1D0AB0070FA13 /* Frameworks */,
+				045615781AA1D0AB0070FA13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0456157C1AA1D0AB0070FA13 /* PBXTargetDependency */,
+			);
+			name = "Pass Value With ProtocolTests";
+			productName = "Pass Value With ProtocolTests";
+			productReference = 0456157A1AA1D0AB0070FA13 /* Pass Value With ProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0456155D1AA1D0AA0070FA13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Variya Soft Solutions";
+				TargetAttributes = {
+					045615641AA1D0AA0070FA13 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					045615791AA1D0AB0070FA13 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 045615641AA1D0AA0070FA13;
+					};
+				};
+			};
+			buildConfigurationList = 045615601AA1D0AA0070FA13 /* Build configuration list for PBXProject "Pass Value With Protocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0456155C1AA1D0AA0070FA13;
+			productRefGroup = 045615661AA1D0AA0070FA13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045615641AA1D0AA0070FA13 /* Pass Value With Protocol */,
+				045615791AA1D0AB0070FA13 /* Pass Value With ProtocolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045615631AA1D0AA0070FA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045615701AA1D0AB0070FA13 /* Main.storyboard in Resources */,
+				045615751AA1D0AB0070FA13 /* LaunchScreen.xib in Resources */,
+				045615721AA1D0AB0070FA13 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045615781AA1D0AB0070FA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045615611AA1D0AA0070FA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0456158B1AA1D0DC0070FA13 /* AViewController.swift in Sources */,
+				0456158D1AA1D0E50070FA13 /* BViewController.swift in Sources */,
+				0456156B1AA1D0AA0070FA13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045615761AA1D0AB0070FA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045615811AA1D0AB0070FA13 /* Pass_Value_With_ProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0456157C1AA1D0AB0070FA13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045615641AA1D0AA0070FA13 /* Pass Value With Protocol */;
+			targetProxy = 0456157B1AA1D0AB0070FA13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0456156E1AA1D0AA0070FA13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0456156F1AA1D0AB0070FA13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045615731AA1D0AB0070FA13 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045615741AA1D0AB0070FA13 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045615821AA1D0AB0070FA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045615831AA1D0AB0070FA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045615851AA1D0AB0070FA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pass Value With Protocol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045615861AA1D0AB0070FA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pass Value With Protocol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045615881AA1D0AB0070FA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pass Value With ProtocolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass Value With Protocol.app/Pass Value With Protocol";
+			};
+			name = Debug;
+		};
+		045615891AA1D0AB0070FA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pass Value With ProtocolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass Value With Protocol.app/Pass Value With Protocol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045615601AA1D0AA0070FA13 /* Build configuration list for PBXProject "Pass Value With Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045615821AA1D0AB0070FA13 /* Debug */,
+				045615831AA1D0AB0070FA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045615841AA1D0AB0070FA13 /* Build configuration list for PBXNativeTarget "Pass Value With Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045615851AA1D0AB0070FA13 /* Debug */,
+				045615861AA1D0AB0070FA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		045615871AA1D0AB0070FA13 /* Build configuration list for PBXNativeTarget "Pass Value With ProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045615881AA1D0AB0070FA13 /* Debug */,
+				045615891AA1D0AB0070FA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0456155D1AA1D0AA0070FA13 /* Project object */;
+}
